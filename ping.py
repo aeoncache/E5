@@ -9,7 +9,7 @@ print(f"随机休眠 {sleep_time} 秒后将访问链接...")
 time.sleep(sleep_time)
 
 # 2. 配置你需要访问的链接
-url = "https://your-target-url.com"  # 👈 替换为你的目标链接
+url = "https://172.245.168.140"  # 👈 替换为你的目标链接
 
 try:
     # 模拟浏览器发送请求
