@@ -1,10 +1,10 @@
-name: Random URL Visitor
+name: Random URL Visitor (1-3 Hours)
 
 on:
   schedule:
-    # 这里的 cron 表达式代表每 30 分钟启动一次（注：GitHub Actions 的定时可能存在几分钟到十几分钟的延迟，这本身也是一种随机）
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # 允许你在 GitHub 页面上手动点击运行测试
+    # 更改为每 1 小时（第 0 分钟）触发一次
+    - cron: '0 * * * *'
+  workflow_dispatch: # 保持手动触发功能不变
 
 jobs:
   visit:
